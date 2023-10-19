@@ -1,0 +1,36 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 32
+    length: 58
+    placeholder_text: "...  # TODO Разверните слово с помощью слайсирования"
+    initial_state:
+      length: 52
+      offset: 33
+    initialized_from_dependency: false
+    selected: true
+    status: Solved
+    encrypted_possible_answer: "word[::-1]"
+  text: |
+    word = "телефон"
+    reversed_word = ...  # TODO Разверните слово с помощью слайсирования
+    print("Слово", word, "задом наперёд:", reversed_word)
+  learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
+- name: tests/output.txt
+  visible: false
+  text: |
+    Слово телефон задом наперёд: нофелет
+  learner_created: false
+- name: sequence_slice_step.png
+  visible: false
+  learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 12 Oct 2023 18:03:17 UTC"
+record: -1
