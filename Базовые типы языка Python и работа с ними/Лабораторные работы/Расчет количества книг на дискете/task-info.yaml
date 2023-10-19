@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 497
+    length: 854
     placeholder_text: |-
       # TODO Найдите количество книг, которое можно разместить на дискете
 
@@ -47,5 +47,8 @@ files:
   visible: false
   learner_created: false
 status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 19 Oct 2023 18:08:58 UTC"
 record: -1
 solution_hidden: true
