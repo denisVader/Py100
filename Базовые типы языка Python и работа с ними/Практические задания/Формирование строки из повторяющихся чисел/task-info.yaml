@@ -10,8 +10,8 @@ files:
       length: 40
       offset: 0
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Failed
     encrypted_possible_answer: |-
       str_numbers = "0" * 20 + "1" * 50 + "2" * 30
 
@@ -27,5 +27,11 @@ files:
   text: |
     0000000000000000000011111111111111111111111111111111111111111111111111222222222222222222222222222222
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Incorrect
+  time: "Thu, 19 Oct 2023 16:44:54 UTC"
+  expected: |
+    0000000000000000000011111111111111111111111111111111111111111111111111222222222222222222222222222222
+  actual: <no output>
 record: -1

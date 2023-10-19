@@ -10,8 +10,8 @@ files:
       length: 40
       offset: 15
     initialized_from_dependency: false
-    selected: false
-    status: Failed
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       {
           1: "Зима",
@@ -32,12 +32,8 @@ files:
   text: |
     {1: 'Зима', 2: 'Весна', 3: 'Лето', 4: 'Осень'}
   learner_created: false
-status: Failed
+status: Solved
 feedback:
-  message: Incorrect
-  time: "Thu, 12 Oct 2023 18:33:06 UTC"
-  expected: |
-    {1: 'Зима', 2: 'Весна', 3: 'Лето', 4: 'Осень'}
-  actual: |
-    Ellipsis
+  message: Congratulations!
+  time: "Thu, 19 Oct 2023 16:24:18 UTC"
 record: -1

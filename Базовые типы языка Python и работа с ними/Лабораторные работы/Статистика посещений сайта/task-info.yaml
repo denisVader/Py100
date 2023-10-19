@@ -3,16 +3,16 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 64
-    length: 79
+  - offset: 144
+    length: 0
     placeholder_text: '# TODO Добавьте словарь и замените в нем нулевые значения статисчикой
       посещений'
     initial_state:
       length: 79
       offset: 64
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Failed
     encrypted_possible_answer: |-
       # Инициализация словаря статистики
       stat = {
@@ -37,6 +37,13 @@ files:
   text: |
     {'Общее количество': 6, 'Уникальные посещения': 4}
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Incorrect
+  time: "Wed, 18 Oct 2023 20:03:41 UTC"
+  expected: |
+    {'Общее количество': 6, 'Уникальные посещения': 4}
+  actual: |
+    Общее количество: 6 Уникальные посещения: 4
 record: -1
 solution_hidden: true

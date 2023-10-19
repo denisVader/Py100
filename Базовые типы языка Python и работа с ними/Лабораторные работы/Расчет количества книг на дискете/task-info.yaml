@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 124
+    length: 490
     placeholder_text: |-
       # TODO Найдите количество книг, которое можно разместить на дискете
 
@@ -13,8 +13,8 @@ files:
       length: 124
       offset: 0
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Failed
     encrypted_possible_answer: |-
       BYTES_ONE_CHAR = 4  # размер одного символа в байтах
 
@@ -46,6 +46,13 @@ files:
 - name: bytes_table.png
   visible: false
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Incorrect
+  time: "Thu, 19 Oct 2023 16:45:31 UTC"
+  expected: |
+    Количество книг, помещающихся на дискету: 3
+  actual: |
+    Количество книг, помещающихся на дискету: Ellipsis
 record: -1
 solution_hidden: true
