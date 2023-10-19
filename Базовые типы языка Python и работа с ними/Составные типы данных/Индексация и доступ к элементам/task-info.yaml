@@ -3,8 +3,8 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 121
-    length: 1
+  - offset: 72
+    length: 16
     placeholder_text: "...  # TODO Получить последнего участника"
     initial_state:
       length: 41
@@ -13,8 +13,8 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: "list_players[-1]"
-  - offset: 132
-    length: 54
+  - offset: 98
+    length: 15
     placeholder_text: "...  # TODO Получить первого участника"
     initial_state:
       length: 38
@@ -26,7 +26,7 @@ files:
       {
           "Первый участник": list_players[0]
       }
-  - offset: 188
+  - offset: 115
     length: 129
     placeholder_text: |-
       # TODO Распечатать имя последнего и первого участника
@@ -63,5 +63,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 12 Oct 2023 17:48:18 UTC"
+  time: "Tue, 17 Oct 2023 19:57:28 UTC"
 record: -1

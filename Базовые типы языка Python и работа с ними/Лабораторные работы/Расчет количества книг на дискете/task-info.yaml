@@ -14,7 +14,7 @@ files:
       offset: 0
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Solved
     encrypted_possible_answer: |-
       BYTES_ONE_CHAR = 4  # размер одного символа в байтах
 
@@ -46,13 +46,6 @@ files:
 - name: bytes_table.png
   visible: false
   learner_created: false
-status: Failed
-feedback:
-  message: Incorrect
-  time: "Thu, 19 Oct 2023 16:45:31 UTC"
-  expected: |
-    Количество книг, помещающихся на дискету: 3
-  actual: |
-    Количество книг, помещающихся на дискету: Ellipsis
+status: Solved
 record: -1
 solution_hidden: true

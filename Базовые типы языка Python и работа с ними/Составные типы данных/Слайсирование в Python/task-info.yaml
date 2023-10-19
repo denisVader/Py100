@@ -3,8 +3,8 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 32
-    length: 58
+  - offset: 33
+    length: 10
     placeholder_text: "...  # TODO Разверните слово с помощью слайсирования"
     initial_state:
       length: 52
@@ -32,5 +32,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 12 Oct 2023 18:03:17 UTC"
+  time: "Tue, 17 Oct 2023 20:06:19 UTC"
 record: -1

@@ -14,7 +14,7 @@ files:
       offset: 102
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Solved
     encrypted_possible_answer: |-
       index_missing_item = 4
 
@@ -45,13 +45,6 @@ files:
 - name: main.py.py
   visible: true
   learner_created: true
-status: Failed
-feedback:
-  message: Incorrect
-  time: "Thu, 19 Oct 2023 17:16:51 UTC"
-  expected: |
-    Измененный список: [2, -93, -2, 8, -15.65, -44, -1, -85, -14, 90, -22, -90, -100, -8, 38, -92, -45, 67, 53, 25]
-  actual: |
-    Измененный список: Ellipsis
+status: Solved
 record: -1
 solution_hidden: true
