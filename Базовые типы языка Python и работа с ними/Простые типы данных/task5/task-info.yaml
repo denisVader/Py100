@@ -12,7 +12,7 @@ files:
       offset: 180
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: speed / 1024
   - offset: 286
     length: 37
@@ -22,7 +22,7 @@ files:
       offset: 286
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: time * 60
   - offset: 390
     length: 24
@@ -32,7 +32,7 @@ files:
       offset: 390
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: "time_in_sec * speed_in_kb_in_sec  # размер файла"
   - offset: 429
     length: 27
@@ -42,7 +42,7 @@ files:
       offset: 429
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: "(file_size - free_traffic) * cost  # стоимость фай\
       ла"
   text: |
@@ -69,5 +69,8 @@ files:
     Размер файла в килобайтах = 28800.0
     За трафик придется заплатить: 3537.5
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 19 Oct 2023 17:48:59 UTC"
 record: -1

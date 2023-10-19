@@ -11,7 +11,7 @@ files:
       offset: 13
     initialized_from_dependency: false
     selected: true
-    status: Solved
+    status: Failed
     encrypted_possible_answer: "[4, 9, 5, 1, 8, 4]"
   - offset: 86
     length: 1
@@ -21,7 +21,7 @@ files:
       offset: 89
     initialized_from_dependency: false
     selected: true
-    status: Solved
+    status: Failed
     encrypted_possible_answer: sum(list_digit))
   - offset: 113
     length: 16
@@ -31,7 +31,7 @@ files:
       offset: 138
     initialized_from_dependency: false
     selected: true
-    status: Solved
+    status: Failed
     encrypted_possible_answer: len(list_digit))
   - offset: 157
     length: 16
@@ -41,7 +41,7 @@ files:
       offset: 194
     initialized_from_dependency: false
     selected: true
-    status: Solved
+    status: Failed
     encrypted_possible_answer: min(list_digit))
   - offset: 202
     length: 59
@@ -51,7 +51,7 @@ files:
       offset: 253
     initialized_from_dependency: false
     selected: true
-    status: Solved
+    status: Failed
     encrypted_possible_answer: max(list_digit))
   - offset: 298
     length: 15
@@ -61,7 +61,7 @@ files:
       offset: 322
     initialized_from_dependency: false
     selected: true
-    status: Solved
+    status: Failed
     encrypted_possible_answer: "round(sum(list_digit) / len(list_digit), 2))"
   text: |
     list_digit = ...  # TODO сформировать список цифр
@@ -86,8 +86,22 @@ files:
     Максимальная цифра 9
     Среднее арифметическое цифр 5.17
   learner_created: false
-status: Solved
+status: Failed
 feedback:
-  message: Congratulations!
-  time: "Tue, 17 Oct 2023 20:53:11 UTC"
+  message: Incorrect
+  time: "Thu, 19 Oct 2023 17:46:05 UTC"
+  expected: |
+    [4, 9, 5, 1, 8, 4]
+    Сумма цифр 31
+    Количество цифр 6
+    Минимальная цифра 1
+    Максимальная цифра 9
+    Среднее арифметическое цифр 5.17
+  actual: |
+    Ellipsis
+    Сумма цифр Ellipsis
+    Количество цифр Ellipsis
+    Минимальная цифра Ellipsis
+    Максимальная цифра Ellipsis
+    Среднее арифметическое цифр Ellipsis
 record: -1
