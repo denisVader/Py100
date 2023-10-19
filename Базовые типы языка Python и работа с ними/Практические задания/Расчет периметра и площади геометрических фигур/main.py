@@ -13,4 +13,4 @@ square_area = side ** 2
 print("Площадь круга:", round(circle_area, 2))
 print("Длина окружности:", round(circle_circumference, 2))
 print("Периметр квадрата:", square_perimeter)
-print("Площадь квадрата:", square_area)
+print("Площадь квадрата:", square_area) # ...
