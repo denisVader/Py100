@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 71
-    length: 69
+    length: 74
     placeholder_text: '# TODO С помощью индексации распечатайте каждое письмо на отдельной
       строке'
     initial_state:
@@ -33,5 +33,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 19 Oct 2023 16:57:07 UTC"
+  time: "Thu, 19 Oct 2023 16:57:55 UTC"
 record: -1
