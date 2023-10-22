@@ -4,15 +4,15 @@ files:
   visible: true
   placeholders:
   - offset: 64
-    length: 114
+    length: 79
     placeholder_text: '# TODO Добавьте словарь и замените в нем нулевые значения статисчикой
       посещений'
     initial_state:
       length: 79
       offset: 64
     initialized_from_dependency: false
-    selected: true
-    status: Solved
+    selected: false
+    status: Failed
     encrypted_possible_answer: |-
       # Инициализация словаря статистики
       stat = {
@@ -37,9 +37,6 @@ files:
   text: |
     {'Общее количество': 6, 'Уникальные посещения': 4}
   learner_created: false
-status: Solved
-feedback:
-  message: Congratulations!
-  time: "Thu, 19 Oct 2023 18:07:26 UTC"
+status: Failed
 record: -1
 solution_hidden: true
