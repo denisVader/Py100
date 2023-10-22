@@ -11,9 +11,9 @@ files:
       offset: 13
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Solved
     encrypted_possible_answer: "[4, 9, 5, 1, 8, 4]"
-  - offset: 86
+  - offset: 68
     length: 1
     placeholder_text: "...)  # TODO сумма цифр"
     initial_state:
@@ -21,9 +21,9 @@ files:
       offset: 89
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Solved
     encrypted_possible_answer: sum(list_digit))
-  - offset: 113
+  - offset: 108
     length: 16
     placeholder_text: "...)  # TODO количество цифр"
     initial_state:
@@ -31,9 +31,9 @@ files:
       offset: 138
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Solved
     encrypted_possible_answer: len(list_digit))
-  - offset: 157
+  - offset: 164
     length: 16
     placeholder_text: "...)  # TODO минимальная цифра"
     initial_state:
@@ -41,19 +41,19 @@ files:
       offset: 194
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Solved
     encrypted_possible_answer: min(list_digit))
-  - offset: 202
-    length: 59
+  - offset: 221
+    length: 71
     placeholder_text: "...)  # TODO максимальная цифра"
     initial_state:
       length: 31
       offset: 253
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Solved
     encrypted_possible_answer: max(list_digit))
-  - offset: 298
+  - offset: 330
     length: 15
     placeholder_text: "...)  # TODO среднее арифметическое цифр"
     initial_state:
@@ -61,7 +61,7 @@ files:
       offset: 322
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Solved
     encrypted_possible_answer: "round(sum(list_digit) / len(list_digit), 2))"
   text: |
     list_digit = ...  # TODO сформировать список цифр
@@ -86,22 +86,8 @@ files:
     Максимальная цифра 9
     Среднее арифметическое цифр 5.17
   learner_created: false
-status: Failed
+status: Solved
 feedback:
-  message: Incorrect
-  time: "Thu, 19 Oct 2023 17:46:05 UTC"
-  expected: |
-    [4, 9, 5, 1, 8, 4]
-    Сумма цифр 31
-    Количество цифр 6
-    Минимальная цифра 1
-    Максимальная цифра 9
-    Среднее арифметическое цифр 5.17
-  actual: |
-    Ellipsis
-    Сумма цифр Ellipsis
-    Количество цифр Ellipsis
-    Минимальная цифра Ellipsis
-    Максимальная цифра Ellipsis
-    Среднее арифметическое цифр Ellipsis
+  message: Congratulations!
+  time: "Sat, 21 Oct 2023 08:28:23 UTC"
 record: -1
