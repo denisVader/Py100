@@ -17,7 +17,7 @@ files:
       offset: 45
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       total = sum(results)
       count = len(results)
@@ -49,5 +49,8 @@ files:
     Наименьшее количество очков за выстрел: 6
     Наибольшее количество очков за выстрел: 10
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 24 Oct 2023 18:34:06 UTC"
 record: -1

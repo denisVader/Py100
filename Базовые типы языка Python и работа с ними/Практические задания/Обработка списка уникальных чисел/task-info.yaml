@@ -16,7 +16,7 @@ files:
       offset: 82
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Failed
     encrypted_possible_answer: |-
       unique_numbers = set(list_)
 
@@ -47,6 +47,13 @@ files:
   text: |
     {'Сумма уникальных чисел:': -6, 'Количество уникальных чисел:': 14, 'Среднее арифметическое уникальных чисел:': -0.42857}
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Incorrect
+  time: "Tue, 24 Oct 2023 18:34:38 UTC"
+  expected: |
+    {'Сумма уникальных чисел:': -6, 'Количество уникальных чисел:': 14, 'Среднее арифметическое уникальных чисел:': -0.42857}
+  actual: |
+    {'Сумма уникальных чисел:': -6, 'Количество уникальных чисел:': 14, 'Среднее арифметическое уникальных чисел:': -0.42857142857142855}
 record: -1
 solution_hidden: true
