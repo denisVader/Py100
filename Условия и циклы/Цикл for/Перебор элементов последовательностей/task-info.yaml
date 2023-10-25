@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 69
-    length: 36
+    length: 119
     placeholder_text: |-
       # TODO Заменить использование индексов на перебор значений списка
       for i in range(len(numbers)):
@@ -13,7 +13,7 @@ files:
       length: 119
       offset: 69
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: |-
       for num in numbers:
@@ -32,7 +32,5 @@ files:
   visible: false
   learner_created: false
 status: Solved
-feedback:
-  time: "Tue, 24 Oct 2023 18:23:07 UTC"
 record: -1
 post_submission_on_open: true

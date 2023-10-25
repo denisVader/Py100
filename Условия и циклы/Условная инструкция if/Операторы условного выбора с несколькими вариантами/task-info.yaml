@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 678
-    length: 45
+    length: 66
     placeholder_text: '# TODO Добавьте блок else c обработкой некорректного номера
       месяца'
     initial_state:
       length: 66
       offset: 678
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: |-
       else:
@@ -45,7 +45,4 @@ files:
     Некорректный номер месяца
   learner_created: false
 status: Solved
-feedback:
-  message: Congratulations!
-  time: "Tue, 24 Oct 2023 17:49:47 UTC"
 record: -1
