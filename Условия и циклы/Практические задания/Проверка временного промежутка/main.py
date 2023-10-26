@@ -1,4 +1,4 @@
-hour = 6
+hour = 19
 
 if 6 <= hour <= 11:
     print("Утро")
