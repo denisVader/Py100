@@ -38,5 +38,8 @@ files:
     {'Общее количество': 6, 'Уникальные посещения': 4}
   learner_created: false
 status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 26 Oct 2023 15:43:48 UTC"
 record: -1
 solution_hidden: true

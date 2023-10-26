@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 17
-    length: 53
+    length: 26
     placeholder_text: '# TODO распечатать лесенку'
     initial_state:
       length: 26
       offset: 17
     initialized_from_dependency: false
-    selected: true
-    status: Solved
+    selected: false
+    status: Unchecked
     encrypted_possible_answer: |-
       for i in range(count_stairs, 0, -1):
           print("*" * i)
@@ -30,8 +30,5 @@ files:
     **
     *
   learner_created: false
-status: Solved
-feedback:
-  message: Congratulations!
-  time: "Wed, 25 Oct 2023 18:45:47 UTC"
+status: Unchecked
 record: -1

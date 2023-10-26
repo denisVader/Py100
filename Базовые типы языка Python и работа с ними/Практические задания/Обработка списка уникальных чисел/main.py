@@ -8,7 +8,6 @@ average = sum_of_numbers / count_of_numbers
 a = 'Сумма уникальных чисел:'
 b = 'Количество уникальных чисел:'
 c = 'Среднее арифметическое уникальных чисел:'
-describe = {a:sum_of_numbers,b:count_of_numbers,c:average}
+# describe = {a:sum_of_numbers,b:count_of_numbers,c: float(f'{average:.5f}')}
+describe = {a: sum_of_numbers, b: count_of_numbers, c: round(average, 5)}
 print(describe)
-
-

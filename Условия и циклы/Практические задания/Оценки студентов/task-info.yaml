@@ -10,8 +10,8 @@ files:
       length: 57
       offset: 233
     initialized_from_dependency: false
-    selected: true
-    status: Solved
+    selected: false
+    status: Unchecked
     encrypted_possible_answer: |-
       # Печать имен студентов с оценкой выше тройки
       for student in students:
@@ -39,8 +39,5 @@ files:
     Саша. Оценка: 5
     Оля. Оценка: 4
   learner_created: false
-status: Solved
-feedback:
-  message: Congratulations!
-  time: "Wed, 25 Oct 2023 19:20:05 UTC"
+status: Unchecked
 record: -1
