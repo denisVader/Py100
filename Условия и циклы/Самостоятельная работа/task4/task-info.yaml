@@ -4,16 +4,16 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 39
+    length: 96
     placeholder_text: '# TODO завести счетчик для произведения'
     initial_state:
       length: 39
       offset: 0
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Failed
     encrypted_possible_answer: mul = 1
-  - offset: 40
+  - offset: 97
     length: 35
     placeholder_text: '# TODO посчитать произведение чисел'
     initial_state:
@@ -21,7 +21,7 @@ files:
       offset: 40
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Failed
     encrypted_possible_answer: |-
       last_number = 10
 
@@ -41,5 +41,21 @@ files:
   text: |
     3628800
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Incorrect
+  time: "Wed, 01 Nov 2023 19:42:21 UTC"
+  expected: |
+    3628800
+  actual: |
+    1
+    4
+    9
+    16
+    25
+    36
+    49
+    64
+    81
+    100
 record: -1
