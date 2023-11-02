@@ -12,7 +12,7 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 746
+    length: 758
     placeholder_text: |-
       salary = 5000  # Ежемесячная зарплата
       spend = 6000  # Траты за первый месяц
@@ -23,7 +23,7 @@ files:
 
       print(f"Подушка безопасности, чтобы протянуть {months} месяцев без долгов:", ...)
     initial_state:
-      length: 354
+      length: 746
       offset: 0
     initialized_from_dependency: false
     selected: true
@@ -54,6 +54,6 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 02 Nov 2023 16:39:08 UTC"
+  time: "Thu, 02 Nov 2023 16:43:02 UTC"
 record: -1
 solution_hidden: true

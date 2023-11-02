@@ -4,13 +4,13 @@ files:
   visible: true
   placeholders:
   - offset: 437
-    length: 84
+    length: 38
     placeholder_text: '# TODO распечатать фамилии и их номера'
     initial_state:
       length: 38
       offset: 437
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: |-
       for rank, surname in enumerate(surname_list, start=1):
@@ -81,5 +81,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 26 Oct 2023 16:39:27 UTC"
+  time: "Thu, 02 Nov 2023 17:17:11 UTC"
 record: -1
