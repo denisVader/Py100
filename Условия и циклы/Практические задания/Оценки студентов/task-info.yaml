@@ -10,7 +10,7 @@ files:
       length: 57
       offset: 233
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: |-
       # Печать имен студентов с оценкой выше тройки
@@ -42,5 +42,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Wed, 25 Oct 2023 19:20:05 UTC"
+  time: "Thu, 26 Oct 2023 16:09:30 UTC"
 record: -1

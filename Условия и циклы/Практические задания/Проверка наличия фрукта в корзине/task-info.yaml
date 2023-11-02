@@ -32,4 +32,7 @@ files:
     Персик есть в корзине с фруктами? False
   learner_created: false
 status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 26 Oct 2023 16:07:37 UTC"
 record: -1
