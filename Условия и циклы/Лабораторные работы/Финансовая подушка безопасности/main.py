@@ -5,14 +5,23 @@ increase = 0.05  # Ежемесячный рост цен
 
 # TODO Посчитайте количество  месяцев, которое можно протянуть без долгов
 month = 0
-result = money_capital + salary - spend    # После первого месяца
+# money_capital += salary - spend    # После первого месяца
 
-rate = spend + (spend * increase)
-while result > 0:
-    rate += rate * increase
-    result = result + salary - rate
+# spend = spend + spend * increase
+# spend = spend * (1 + increase)
+# spend *= 1 + increase
+
+# while money_capital > 0:
+#     money_capital += salary - spend
+#     if money_capital < 0:
+#         break
+#     spend *= 1 + increase
+#     month += 1
+
+while money_capital + salary - spend > 0:  # Запасов хватит
+    money_capital += salary - spend  # Сколько осталось
+    spend *= 1 + increase
     month += 1
-print(month)
 
 
 print("Количество месяцев, которое можно протянуть без долгов:", month)
