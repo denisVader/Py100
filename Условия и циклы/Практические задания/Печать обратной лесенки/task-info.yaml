@@ -4,13 +4,13 @@ files:
   visible: true
   placeholders:
   - offset: 17
-    length: 26
+    length: 53
     placeholder_text: '# TODO распечатать лесенку'
     initial_state:
       length: 26
       offset: 17
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
     encrypted_possible_answer: |-
       for i in range(count_stairs, 0, -1):
@@ -33,5 +33,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 26 Oct 2023 16:08:01 UTC"
+  time: "Wed, 25 Oct 2023 18:45:47 UTC"
 record: -1

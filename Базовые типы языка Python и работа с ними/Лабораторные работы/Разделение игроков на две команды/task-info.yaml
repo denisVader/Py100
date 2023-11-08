@@ -36,8 +36,5 @@ files:
     ['Оля', 'Кирилл', 'Коля']
   learner_created: false
 status: Solved
-feedback:
-  message: Congratulations!
-  time: "Thu, 26 Oct 2023 15:43:46 UTC"
 record: -1
 solution_hidden: true

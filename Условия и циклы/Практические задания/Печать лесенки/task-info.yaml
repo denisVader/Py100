@@ -6,14 +6,14 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 0
-    length: 47
+  - offset: 17
+    length: 84
     placeholder_text: '# TODO С помощью цикла for распечатайте лесенку'
     initial_state:
       length: 47
       offset: 0
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: |-
       count_stairs = 4
@@ -33,5 +33,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 26 Oct 2023 16:05:14 UTC"
+  time: "Wed, 25 Oct 2023 18:38:20 UTC"
 record: -1

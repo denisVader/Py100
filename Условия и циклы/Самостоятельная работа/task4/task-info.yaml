@@ -3,8 +3,8 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 18
-    length: 45
+  - offset: 0
+    length: 112
     placeholder_text: '# TODO завести счетчик для произведения'
     initial_state:
       length: 39
@@ -13,8 +13,8 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: mul = 1
-  - offset: 64
-    length: 39
+  - offset: 113
+    length: 40
     placeholder_text: '# TODO посчитать произведение чисел'
     initial_state:
       length: 35
@@ -44,5 +44,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 02 Nov 2023 17:35:42 UTC"
+  time: "Thu, 02 Nov 2023 19:10:43 UTC"
 record: -1

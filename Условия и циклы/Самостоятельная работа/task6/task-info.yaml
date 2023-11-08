@@ -12,14 +12,14 @@ files:
   visible: true
   placeholders:
   - offset: 105
-    length: 50
+    length: 194
     placeholder_text: '# TODO Поменяйте местами значения согласно условию'
     initial_state:
       length: 50
       offset: 105
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Failed
     encrypted_possible_answer: |-
       max_index = 0
       max_value = list_numbers[max_index]
@@ -39,5 +39,13 @@ files:
 
     print(list_numbers)  # Ответ [2, 90, -2, 8, -36, -44, -1, -85, -14, 25, -22, -90, -100, -8, 38, -92, -45, 67, 53, 90]
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Incorrect
+  time: "Mon, 06 Nov 2023 19:22:17 UTC"
+  expected: |
+    [2, 90, -2, 8, -36, -44, -1, -85, -14, 25, -22, -90, -100, -8, 38, -92, -45, 67, 53, 90]
+  actual: |
+    25 19
+    [2, 90, -2, 8, -36, -44, -1, -85, -14, 90, -22, -90, -100, -8, 38, -92, -45, 67, 53, 25]
 record: -1

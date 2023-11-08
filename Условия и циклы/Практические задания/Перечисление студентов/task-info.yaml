@@ -4,13 +4,13 @@ files:
   visible: true
   placeholders:
   - offset: 59
-    length: 38
+    length: 50
     placeholder_text: '# TODO распечатать в столбик все имена'
     initial_state:
       length: 38
       offset: 59
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
     encrypted_possible_answer: |-
       for student in list_students:
@@ -35,5 +35,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 26 Oct 2023 16:08:19 UTC"
+  time: "Wed, 25 Oct 2023 18:52:49 UTC"
 record: -1
