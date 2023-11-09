@@ -4,19 +4,19 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 36
+    length: 48
     placeholder_text: '# TODO Напишите функцию print_stairs'
     initial_state:
       length: 36
       offset: 0
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: |-
       def print_stairs(count_stairs=4):
           for i in range(1, count_stairs + 1):
               print("*" * i)
-  - offset: 39
+  - offset: 50
     length: 62
     placeholder_text: '# TODO вызвать функцию без аргументов и с аргументом равным
       10'

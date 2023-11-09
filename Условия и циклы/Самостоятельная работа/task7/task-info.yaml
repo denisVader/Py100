@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 195
-    length: 331
+    length: 306
     placeholder_text: |-
       # TODO переписать на цикл с постусловием
       while sum_ < max_sum:  # делай пока ...
@@ -17,7 +17,7 @@ files:
       length: 306
       offset: 195
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: |-
       while True:
@@ -76,5 +76,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Sat, 04 Nov 2023 08:40:04 UTC"
+  time: "Thu, 09 Nov 2023 15:06:23 UTC"
 record: -1

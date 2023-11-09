@@ -3,14 +3,14 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 160
-    length: 4
+  - offset: 95
+    length: 42
     placeholder_text: "...  # TODO подставить результат выражения"
     initial_state:
       length: 42
       offset: 95
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: "True"
   text: |
@@ -33,5 +33,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Sat, 04 Nov 2023 08:52:22 UTC"
+  time: "Thu, 09 Nov 2023 15:06:34 UTC"
 record: -1
