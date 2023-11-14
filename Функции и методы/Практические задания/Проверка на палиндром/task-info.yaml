@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 39
+    length: 115
     placeholder_text: '# TODO Напишите функцию `is_palindrome`'
     initial_state:
       length: 39
       offset: 0
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       def is_palindrome(str_):
           str_clear = ''.join(str_.lower().split())
@@ -75,5 +75,8 @@ files:
 - name: tests/__init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 11 Nov 2023 15:03:24 UTC"
 record: -1

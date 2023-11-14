@@ -4,18 +4,18 @@ files:
   visible: true
   placeholders:
   - offset: 43
-    length: 61
+    length: 82
     placeholder_text: '# TODO завести отдельные счетчики для четных и нечетных чисел'
     initial_state:
       length: 61
       offset: 43
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
     encrypted_possible_answer: |-
       count_even = 0  # количество четных чисел
       count_odd = 0  # количество нечетных чисел
-  - offset: 106
+  - offset: 127
     length: 90
     placeholder_text: '# TODO с помощью одного цикла перебрать все числа и посчитать
       количество четных и нечетных'
@@ -23,7 +23,7 @@ files:
       length: 90
       offset: 106
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
     encrypted_possible_answer: |-
       for value in list_:  # перебираем все числа
@@ -31,14 +31,14 @@ files:
               count_even += 1
           else:
               count_odd += 1
-  - offset: 198
-    length: 33
+  - offset: 512
+    length: 0
     placeholder_text: '# TODO вывести каких чисел больше'
     initial_state:
       length: 33
       offset: 198
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
     encrypted_possible_answer: |-
       if count_even > count_odd:
@@ -67,5 +67,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 09 Nov 2023 15:06:43 UTC"
+  time: "Sat, 04 Nov 2023 09:54:33 UTC"
 record: -1

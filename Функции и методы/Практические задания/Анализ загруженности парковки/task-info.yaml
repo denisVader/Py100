@@ -4,13 +4,13 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 157
+    length: 48
     placeholder_text: '# TODO Напишите функцию `calculate_parking_load`'
     initial_state:
       length: 48
       offset: 0
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: |-
       def calculate_parking_load(total_parking_spaces, occupied_parking_spaces):
@@ -90,5 +90,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 09 Nov 2023 16:30:26 UTC"
+  time: "Thu, 09 Nov 2023 18:53:17 UTC"
 record: -1

@@ -4,13 +4,13 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 49
+    length: 35
     placeholder_text: '# TODO Запишите функцию `factorial`'
     initial_state:
       length: 35
       offset: 0
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: |-
       def factorial(n):
@@ -22,8 +22,8 @@ files:
               result *= num
 
           return result
-  - offset: 138
-    length: 157
+  - offset: 38
+    length: 139
     placeholder_text: "# TODO Вызовите функцию factorial и распечатайте результат\
       \ \nprint(f\"Факториал числа 0 равен {...}\")\nprint(f\"Факториал числа 5 ра\
       вен {...}\")"
@@ -31,7 +31,7 @@ files:
       length: 139
       offset: 38
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: |-
       print(f"Факториал числа 0 равен {factorial(0)}")
@@ -52,5 +52,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 09 Nov 2023 17:04:17 UTC"
+  time: "Sat, 11 Nov 2023 10:52:00 UTC"
 record: -1
