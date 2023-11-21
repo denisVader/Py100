@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 157
+    length: 60
     placeholder_text: |-
       # TODO реализовать функцию
       def get_sentences_list():
@@ -13,7 +13,7 @@ files:
       length: 60
       offset: 0
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: |-
       def get_sentences_list(str_words):
@@ -42,5 +42,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Sat, 18 Nov 2023 15:36:34 UTC"
+  time: "Tue, 21 Nov 2023 15:14:28 UTC"
 record: -1

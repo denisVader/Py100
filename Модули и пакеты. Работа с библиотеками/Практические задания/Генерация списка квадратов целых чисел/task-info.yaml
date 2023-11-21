@@ -48,8 +48,8 @@ files:
 - name: task.py
   visible: true
   placeholders:
-  - offset: 107
-    length: 135
+  - offset: 111
+    length: 127
     placeholder_text: |-
       # TODO заменить на list comprehension
           squares = []
@@ -60,7 +60,7 @@ files:
       length: 127
       offset: 111
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: "return [i ** 2 for i in range(n+1)]"
   text: |
@@ -84,5 +84,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Mon, 20 Nov 2023 20:10:22 UTC"
+  time: "Tue, 21 Nov 2023 16:37:04 UTC"
 record: -1

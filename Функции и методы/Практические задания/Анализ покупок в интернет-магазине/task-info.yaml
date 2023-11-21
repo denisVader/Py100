@@ -4,28 +4,28 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 147
+    length: 41
     placeholder_text: '# TODO Напишите функцию find_common_items'
     initial_state:
       length: 41
       offset: 0
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: |-
       def find_common_items(last_week_purchases, current_week_purchases):
           common_purchases = list(set(last_week_purchases).intersection(current_week_purchases))
           common_purchases.sort()
           return common_purchases
-  - offset: 274
-    length: 113
+  - offset: 168
+    length: 63
     placeholder_text: "print(f\"Общие товары: {...}\")  # TODO Распечатайте общие\
       \ товары"
     initial_state:
       length: 63
       offset: 168
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: "print(f\"Общие товары: {find_common_items(last_week_items,\
       \ current_week_items)}\")"
@@ -49,5 +49,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Sun, 12 Nov 2023 09:59:06 UTC"
+  time: "Tue, 21 Nov 2023 15:00:17 UTC"
 record: -1

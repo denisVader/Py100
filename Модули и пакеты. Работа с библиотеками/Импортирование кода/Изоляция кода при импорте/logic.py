@@ -5,3 +5,7 @@ def calculate_square_area(side_length):
 if __name__ == '__main__':
     print(f"Функция `calculate_square_area` вызвана в модуле {__name__}")  # Печать переменной с названием модуля
     print(calculate_square_area(2))  # код оставшийся от проверки функции
+
+    assert calculate_square_area(2) == 4
+
+

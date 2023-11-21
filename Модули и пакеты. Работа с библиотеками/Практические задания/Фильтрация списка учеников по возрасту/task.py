@@ -1,7 +1,7 @@
 # TODO Напишите функцию calculate_average_age
 
 
-# TODO Напишите функцию filter_students_by_age
+def filter_students_by_age(studens_list)
 
 
 if __name__ == '__main__':
