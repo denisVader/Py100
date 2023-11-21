@@ -2,7 +2,17 @@ ALLOW_SYMBOLS = ["0", "1"]  # Допустимые символы
 
 
 def check_string(str_):
-    ...  # TODO проверить что в строку входят только символы 1 и 0
+    if not str_:
+        return False
+
+    for i in str_:
+        if i not in ALLOW_SYMBOLS:
+            return False
+    return True
+
+
+
+
 
 
 print(check_string("1010101010"))

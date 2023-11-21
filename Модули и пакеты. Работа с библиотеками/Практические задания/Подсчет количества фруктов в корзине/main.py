@@ -1,4 +1,7 @@
-# TODO Импортируйте Counter из модуля collections
+from collections import Counter
+def fruit_counter(cart_fruits):
+    value = Counter(cart_fruits)
+    return value
 
 
 if __name__ == '__main__':
@@ -10,4 +13,4 @@ if __name__ == '__main__':
         'Апельсин', 'Яблоко', 'Апельсин', 'Яблоко', 'Апельсин', 'Апельсин', 'Яблоко', 'Апельсин', 'Яблоко'
     ]
 
-    # TODO Подсчитайте фрукты с помощью Counter
+    print(fruit_counter(cart_fruits))

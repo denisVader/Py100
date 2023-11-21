@@ -1,14 +1,31 @@
 # def count_letters(main_str):
-#     main_str.capitalize()
+#     main_str.lover()
 #
-#
-# def calculate_frequency(count_letters):
-#     result = ''.join(main_str.lower().split())
-#     from collections import Counter
-#     Counter(result)
-#     main_str.isalpha()
-#     return result
 
+from collections import Counter
+
+def calculate_frequency(main_str):
+    result = ''.join(main_str.lower().split())
+
+    res = []
+    for char in result:
+        if char.isalpha():
+            res.append(char)
+    res = ''.join(res)
+
+    res = Counter(res)
+    #print(res)
+    return res
+
+def frequency(main_str):
+    res = calculate_frequency(main_str)
+    sum_ = sum(res.values())    # сумма для частоты
+    #print(sum_)
+
+    dict = {}
+    for char, key in res.items():
+
+        print(f'{char}: {key/sum_:.2f}')
 
 main_str = """
 У лукоморья дуб зелёный;
@@ -45,12 +62,26 @@ main_str = """
 Под ним сидел, и кот учёный
 Свои мне сказки говорил.
 """
-result = ''.join(main_str.lower().split())
-from collections import Counter
-print(Counter(result))
-print(main_str.capitalize())
-main_str.isalpha()
-# x = calculate_frequency(main_str)
-# print(x)
 
-# TODO Распечатайте в столбик букву и её частоту в тексте
+
+# result = ''.join(main_str.lower().split())
+# res = []
+# for char in result:
+#     if char.isalpha():
+#         res.append(char)
+# res = ''.join(res)
+# from collections import Counter
+# calculate = Counter(res)
+# print(calculate)
+#print(main_str.capitalize())
+# x = calculate_frequency(mai
+#res = calculate_frequency(main_str)
+# def frequency(main_str):
+#     for char, key in res.items():
+#         print(char, key)
+#
+# # for i,y in calculate.items():
+# #     print(i, y)
+# #
+calculate_frequency(main_str)
+frequency(main_str)

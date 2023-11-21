@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 48
+    length: 359
     placeholder_text: '# TODO Напишите функцию find_common_participants'
     initial_state:
       length: 48
       offset: 0
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Failed
     encrypted_possible_answer: |-
       def find_common_participants(participants1, participants2, separator=','):
           participants_list1 = participants1.split(separator)
@@ -21,7 +21,7 @@ files:
           common_participants.sort()
 
           return common_participants
-  - offset: 156
+  - offset: 562
     length: 65
     placeholder_text: '# TODO Провеьте работу функции с разделителем отличным от запятой'
     initial_state:
@@ -29,7 +29,7 @@ files:
       offset: 156
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Failed
     encrypted_possible_answer: |-
       participants = find_common_participants(participants_first_group, participants_second_group)
       print("Общие участники:", participants)
@@ -117,6 +117,10 @@ files:
 - name: tests/__init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: "Убедитесь, что при объявлении функции `find_common_participants` указа\
+    но три аргумента."
+  time: "Tue, 21 Nov 2023 15:09:32 UTC"
 record: -1
 solution_hidden: true

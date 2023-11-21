@@ -3,16 +3,16 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 79
-    length: 62
+  - offset: 212
+    length: 0
     placeholder_text: "...  # TODO проверить что в строку входят только символы 1\
       \ и 0"
     initial_state:
       length: 62
       offset: 79
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       if not str_:
               return False
@@ -45,5 +45,8 @@ files:
     False
     False
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 19 Nov 2023 11:06:33 UTC"
 record: -1
