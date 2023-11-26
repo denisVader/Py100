@@ -1,7 +1,10 @@
-# TODO Напишите функцию calculate_average_age
+def calculate_average_age(student):
+    return sum([student["age"] for student in student]) / len(student)
 
 
-def filter_students_by_age(studens_list)
+def filter_students_by_age(student, average_age):
+    return [student for student in student if student["age"] < average_age]
+
 
 
 if __name__ == '__main__':
@@ -30,11 +33,12 @@ if __name__ == '__main__':
     ]
 
     # Вычисление среднего возраста
-    # TODO Вычислите средний возраст учеников
-    print("Средний возраст учеников:", ...)
+    average_age = calculate_average_age(students_list)
+    print("Средний возраст учеников:", average_age)
 
     # Фильтрация учеников по возрасту
-    # TODO Офильтруйте учеников
-    print("Список учеников с возрастом меньше среднего:")
-    for current_student in ...:
+    new_list = filter_students_by_age(students_list, average_age)
+    print("Список учеников с возрастом меньше среднего: ")
+    for current_student in new_list:
         print(current_student['name'])
+    #print(filter_students_by_age(students_list))

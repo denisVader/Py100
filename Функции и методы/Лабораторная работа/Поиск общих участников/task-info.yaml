@@ -4,10 +4,10 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 48
+    length: 366
     placeholder_text: '# TODO Напишите функцию find_common_participants'
     initial_state:
-      length: 48
+      length: 366
       offset: 0
     initialized_from_dependency: false
     selected: true
@@ -21,14 +21,14 @@ files:
           common_participants.sort()
 
           return common_participants
-  - offset: 165
+  - offset: 577
     length: 65
     placeholder_text: '# TODO Провеьте работу функции с разделителем отличным от запятой'
     initial_state:
       length: 65
-      offset: 156
+      offset: 577
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: |-
       participants = find_common_participants(participants_first_group, participants_second_group)
@@ -120,6 +120,6 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Tue, 21 Nov 2023 15:46:48 UTC"
+  time: "Tue, 21 Nov 2023 16:42:21 UTC"
 record: -1
 solution_hidden: true

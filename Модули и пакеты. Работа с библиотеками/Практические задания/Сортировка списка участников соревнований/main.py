@@ -1,4 +1,5 @@
-# TODO Напишите функцию sort_participants
+def sort_participants(partticipants_list):
+    return participants_list
 
 
 if __name__ == "__main__":
@@ -25,4 +26,5 @@ if __name__ == "__main__":
         },
     ]
 
+    participants_list = sorted(participants_list,key=lambda a: a["name"])
     print(sort_participants(participants_list))

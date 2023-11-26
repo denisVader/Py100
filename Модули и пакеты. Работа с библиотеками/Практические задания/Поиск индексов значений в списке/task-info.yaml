@@ -3,8 +3,8 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 0
-    length: 50
+  - offset: 23
+    length: 229
     placeholder_text: |-
       # TODO написать функцию index
       def index():
@@ -13,8 +13,8 @@ files:
       length: 50
       offset: 0
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       from typing import Any
 
@@ -42,5 +42,8 @@ files:
   text: |
     True
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 25 Nov 2023 10:01:42 UTC"
 record: -1

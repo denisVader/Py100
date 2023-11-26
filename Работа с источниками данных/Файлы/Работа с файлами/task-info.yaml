@@ -3,15 +3,15 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 351
-    length: 69
+  - offset: 352
+    length: 86
     placeholder_text: "with open(file, \"w\") as f:  # TODO Добавьте аргумент encoding='utf-8'"
     initial_state:
       length: 69
       offset: 351
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: "with open(file, \"w\", encoding='utf-8') as f:"
   text: |
     import os
@@ -45,6 +45,11 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+- name: output.txt
+  visible: true
+  learner_created: true
+status: Solved
+feedback:
+  time: "Sat, 25 Nov 2023 14:37:39 UTC"
 record: -1
 post_submission_on_open: true

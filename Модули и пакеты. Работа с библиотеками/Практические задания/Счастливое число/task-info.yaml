@@ -4,21 +4,21 @@ files:
   visible: true
   placeholders:
   - offset: 43
-    length: 60
+    length: 247
     placeholder_text: "...  # TODO проверить что число шестизначное и положительно\
       е"
     initial_state:
       length: 60
       offset: 43
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       if num <= 0:
               raise ValueError("Число не является положительным :(")
           if len(str(num)) != 6:
               raise ValueError("Число не шестизначное :(")
-  - offset: 109
+  - offset: 297
     length: 46
     placeholder_text: "...  # TODO проверить счастливое число или нет"
     initial_state:
@@ -26,7 +26,7 @@ files:
       offset: 109
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       list_digits = [int(digit) for digit in str(num)]
           return sum(list_digits[:3]) == sum(list_digits[3:])
@@ -53,5 +53,8 @@ files:
     False
     False
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 25 Nov 2023 09:45:00 UTC"
 record: -1
